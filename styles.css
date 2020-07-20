@@ -120,6 +120,7 @@ body {
 }
 .cascade{
   width: 40%;
+  margin-left: 0
 }
 #Plants{
   margin-top: 100px
@@ -213,9 +214,5 @@ body {
 .card-title{
   background-color: #b6eb7a;
 }
-.cascade{
-  margin-left: 30vw;
-}
-
 
 }
