@@ -1,0 +1,221 @@
+body {
+  font-family: Maven Pro, serif;
+  background-color: #f7f7ee;
+}
+
+/* This is navbar css */
+.navbar {
+  background-color: #fff;
+  padding: 1% 7%;
+  border-color: #b6eb7a;
+}
+
+.logo {
+  font-family: Handlee, cursive;
+  font-size: 3vw;
+  font-weight: bolder;
+  color: #17706e;
+}
+
+.navitem {
+  color: #17706e;
+}
+
+.top-nav-collapse {
+  background-color: #fff;
+}
+
+.contact-navbar {
+  margin-right: 1rem;
+}
+
+/* This is Welcome page css */
+.leaf-logo {
+  background-color: #b6eb7a;
+  height: 32vw;
+  margin-top: 5%;
+}
+
+.welcome-wreath {
+  text-align: center;
+  width: 45%;
+  transform: rotate(-20deg);
+  position: relative;
+  left: 28vw;
+  bottom: 4vw;
+}
+
+.welcome-text-leaf {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  bottom: 2vw;
+  right: 5.2vw;
+  color: #184d47;
+  font-family: Handlee, cursive;
+  font-size: 12vw;
+  font-weight: bolder;
+}
+
+.welcome-div {
+  height: 60vw;
+}
+
+.welcome-short-message {
+  margin: 0;
+  position: relative;
+  left: 62vw;
+  bottom: 45vw;
+  text-align: center;
+  width: 35%;
+  color: #17706e;
+  font-weight: 600;
+  font-size: 3vw;
+  border: double 4px;
+  border-color: #fb7813;
+  padding: 5vw
+}
+
+.welcome-img {
+  width: 35vw;
+  transform: rotate(90deg);
+  position: relative;
+  left: 13vw;
+  top: 3vw;
+  z-index: 1;
+}
+
+/* the css for about */
+.about-container{
+  background-color: #17706e;
+}
+.about-vine {
+  background-color: #17706e;
+  width: 14vw;
+}
+.about-para{
+  background-color: #f7f7ee;
+}
+.para-gardening{
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 5vw;;
+}
+.para-gardening2{
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 5vw;;
+}
+.about-gardening{
+  margin-top: 1vw;
+  width: 100%;
+}
+.empty-column{
+  background-color: #17706e;
+}
+
+/* this section deals with product css */
+#products{
+  text-align: center;
+}
+.cascade{
+  width: 40%;
+}
+#Plants{
+  margin-top: 100px
+}
+.plants-title{
+  font-size: 4vw;
+  font-weight: 600;
+  padding: 4%;
+  color: #fb7813
+}
+.card{
+  border-color: #17706e;
+}
+.card-title{
+  background-color: #b6eb7a;
+}
+
+@media only screen and (max-width: 550px) {
+  .logo {
+    color: #17706e;
+    font-size: 5vw;
+  }
+
+  .leaf-logo {
+    height: 40vw;
+    margin-top: 10%;
+  }
+
+  .welcome-wreath {
+    width: 70%;
+    left: 16vw;
+    bottom: 8vw;
+  }
+
+  .welcome-text-leaf {
+    font-size: 20vw;
+    width: 20%;
+    height: auto;
+    bottom: 4vw;
+    right: 37vw;
+  }
+
+  .welcome-short-message {
+    position: relative;
+    left: 55vw;
+    width: 40vw;
+    font-size: 3vw;
+  }
+
+  .welcome-img {
+    position: relative;
+  }
+  .about-container{
+    width:33%
+  }
+  .about-para{
+    width:33%;
+  }
+  .empty-column{
+    width:30%
+  }
+  .about-vine {
+    background-color: #17706e;
+    width: 18vw;
+  }
+  .para-gardening{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 5vw;;
+  }
+  .about-gardening{
+    margin-top: 15vw;
+    width: 100%;
+  }
+  .para-gardening2{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 10vw;;
+  }
+}
+.plants-title{
+  font-size: 4vw;
+  font-weight: 600;
+  padding: 4%;
+  color: #fb7813
+}
+.card{
+  border-color: #17706e;
+  width: 99%;
+}
+.card-title{
+  background-color: #b6eb7a;
+}
+.cascade{
+  margin-left: 30vw;
+}
+
+
+}
